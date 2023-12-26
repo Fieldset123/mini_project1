@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#548687;
+    text-align: center; 
+}
+
+.container{
+  height:70vh;
+  width:200vh;
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height:18vmin;  /* each row given approximately 20% height*/
+    width:18vmin;
+    background-color: #ffffc7;
+    margin:5px;
+    border-radius: 1rem;
+    border:none;
+    box-shadow:0  0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color:#b0413e;
+}
+
+
+#reset-btn{
+    padding:1rem;
+    font-size:1.1rem;
+    background-color:#191913 ;
+    color:white;
+    border-radius: 1rem;
+    border:none;
+}
+
+#new-btn{
+    padding:1rem;
+    font-size:1.1rem;
+    background-color:#191913 ;
+    color:white;
+    border-radius: 1rem;
+    border:none;
+}
+#message{
+    color:#ffffc7;
+    font-size:5vmin;
+}
+.msg-container{
+    height:30vmin;
+}
+.hide{
+    display:none;
+}
+.indicator{
+font-size: 25px;
+display:flex;
+flex-direction:column;
+width:200px;
+height:80px;
+
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+}
+.heading{
+    margin-top:3px;
+    background-color: olive;
+    border-radius: 4px;
+}
