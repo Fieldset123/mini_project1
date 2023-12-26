@@ -44,6 +44,8 @@ const resetGame=()=>{
     enableBoxes();
     msgContainer.classList.add("hide");
     indIcator.classList.add("hide");
+    player1=prompt("Enter player_1 name");
+    player2=prompt("Enter player_2 name");
 
 }
 
